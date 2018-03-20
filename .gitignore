@@ -1,0 +1,6 @@
+# well ofcourse
+node_modules/
+
+bin/
+reports/
+*.log
