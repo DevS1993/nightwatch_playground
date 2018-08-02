@@ -1,7 +1,7 @@
 module.exports = {
     'Demo test Google' : function (browser) {
       browser
-        .url('http://www.google.com')
+        .url(browser.globals.constants.root_url)
         .waitForElementVisible('body', 1000)
         .setValue('input[type=text]', 'nightwatch')
         .waitForElementVisible('button[name=btnG]', 1000)
