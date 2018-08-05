@@ -1,0 +1,15 @@
+dist: trusty
+addons:
+  chrome: stable
+language: node_js
+node_js:
+  - "8.11.3"
+before_install:
+  - npm install -g nightwatch
+
+before_script:
+  - mkdir bin
+  - cp -r node_modules/chromedriver bin/chromedriver/
+  - cp -r node_modules/geckodriver bin/geckodriver/
+  - cp -r node_modules/selenium-server bin/selenium-server/
+script: npm run headless
