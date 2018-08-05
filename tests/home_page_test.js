@@ -11,9 +11,7 @@ module.exports = {
         .assert.cssClassPresent('div#dev-div a:nth-of-type(3) i', 'fa-linkedin')
         .waitForElementVisible('div#about h2', browser.globals.constants.time_out)
         .waitForElementVisible('div#experience-timeline', browser.globals.constants.time_out)
-        // the next line will fail,
-        .verify.containsText('div#education div:nth-of-type(2) span', 'Date Range')
-        // as verify is used the failure is logged and execution continues
+        .assert.containsText('div#education div:nth-of-type(2) span', 'June 2011 - May 2014')
         .waitForElementVisible('div#projects .project-info', browser.globals.constants.time_out)
         .waitForElementVisible('div#skills', browser.globals.constants.time_out)
         .verify.containsText('div#skills li:nth-of-type(2)', 'Ruby on Rails')
