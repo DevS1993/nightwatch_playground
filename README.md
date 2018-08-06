@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/DevS1993/nightwatch_setup.svg?branch=master)](https://travis-ci.org/DevS1993/nightwatch_setup)
+[![Build Status](https://travis-ci.org/DevS1993/nightwatch_playground.svg?branch=master)](https://travis-ci.org/DevS1993/nightwatch_playground)
 
 # nightwatch_setup
 - NightWatch Setup
