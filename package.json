@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "chromedriver": "^2.43.0",
-    "geckodriver": "^1.12.1",
+    "geckodriver": "^1.15.1",
     "selenium-server": "^3.13.0",
     "selenium-server-standalone": "^2.53.1"
   },
