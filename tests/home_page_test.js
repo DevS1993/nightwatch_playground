@@ -12,7 +12,6 @@ module.exports = {
         .waitForElementVisible('div#about h2', browser.globals.constants.time_out)
         .waitForElementVisible('div#experience-timeline', browser.globals.constants.time_out)
         .assert.containsText('div#education div:nth-of-type(1) span', 'June 2011 - May 2014')
-        .waitForElementVisible('div#projects .project-info', browser.globals.constants.time_out)
         .waitForElementVisible('div#skills', browser.globals.constants.time_out)
         .verify.containsText('div#skills li:nth-of-type(2)', 'Ruby on Rails')
         .assert.elementNotPresent("div#contact")
