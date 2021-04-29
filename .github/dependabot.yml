@@ -1,0 +1,26 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "23:30"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: nightwatch
+    versions:
+    - 1.5.1
+    - 1.6.0
+    - 1.6.1
+    - 1.6.2
+  - dependency-name: y18n
+    versions:
+    - 4.0.1
+  - dependency-name: geckodriver
+    versions:
+    - 1.22.1
+    - 1.22.2
+  - dependency-name: chromedriver
+    versions:
+    - 88.0.0
+    - 89.0.0
